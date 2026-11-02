@@ -1,0 +1,10 @@
+title: 측량학2 · 7조 연구보고서
+lang: ko
+url: "https://woo0754-hash.github.io"
+baseurl: "/surveying2-team-7"
+repository: "woo0754-hash/surveying2-team-7"
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude:
+  - README.md
