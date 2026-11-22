@@ -148,10 +148,10 @@ badge: "7조 연구보고서"
 산림 유형에 공통으로 나타난 NDVI 변화를 점검하는 데 사용하였다
 
 <img width="260" height="82" alt="image" src="https://github.com/user-attachments/assets/8cfa57c6-3023-45cd-9583-c8630647a9b8" />
-임상도의 갱신 시점과 2026년 도지피복 상대 사이에 사이가 있을 수 있으므로, 영상에 나타난 실제 피복 상대도 품질 점검에
+임상도의 갱신 시점과 2026년 토지피복 상태 사이에 차이가 있을 수 있으므로, 영상에 나타난 실제 피복 상대도 품질 점검에
 활용한다
 
-### 4.3 기상 및 보조자료
+### 4.3 기상 및 보조자료ㅐ0
 
 <img width="580" height="197" alt="image" src="https://github.com/user-attachments/assets/3f85932d-2d21-46b0-b424-4fb8a112aba6" />
 
@@ -159,7 +159,7 @@ ERA5-Land는 격자 단위의 재분석 추정값이다. 따라서 대상지 일
 개별 산림 화소나 계곡 • 능선의 국지 기상은 격자 해상도의 한계를 고려하여 해석한다
 
 ## 5. 방법 {#method}
-###5.1 영상 전처리 및 NDVI합성
+### 5.1 영상 전처리 및 NDVI합성
 600힌e Earth Engine(GEE)에서 대상지와 기간에 해당하는 Sentinel-2 영상을 불러오고, Cloud Score+의 cs_cdf 밴드
 를 연결하였다. 적색광 밴드 B4와 근적외선 번드 B8을 이용하여 화소별 NDⅥ를 계산하였다
 
