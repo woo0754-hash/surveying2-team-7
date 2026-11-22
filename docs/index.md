@@ -170,7 +170,7 @@ Google Earth Engine(GEE)에서 대상지와 기간에 해당하는 Sentinel-2 �
 적색광 밴드 B4와 근적외선 밴드 B8을 이용하여 화소별 NDVI를 계산하였다
 
 <img width="568" height="49" alt="image" src="https://github.com/user-attachments/assets/79eb1df7-631d-436c-9127-3c2067fca27f" />
-cs_cdf가 0.60 이상이고 Sentinel-2 장면분류(SCL) 값이 4 또는 5인 화소를 유효 관측으로 사용하였다. 전체적인 변화 분포를 
+Cloude Score+가 0.60 이상이고 Sentinel-2 장면분류(SCL) 값이 4 또는 5인 화소를 유효 관측으로 사용하였다. 전체적인 변화 분포를 
 파악하기 위해 8월, 9월, 10월 및 11월1-13일의 NDVI 사이를 10m 격자로 시각화하였다.
 후보 판정에는 아래 일곱구간의 NDVI를 별도로 합성하여 사용하였다.
 
