@@ -176,11 +176,11 @@ Cloude Score+가 0.60 이상이고 Sentinel-2 장면분류(SCL) 값이 4 또는 
 
 <img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/4880c26f-56cc-41e4-8734-bf33ab89cb54" />
 
-<img width="1680" height="920" alt="image" src="https://github.com/user-attachments/assets/8dbd9896-1f68-4f6d-83d4-275a61aaa018" />
-
 각 연도의 구간별 NDVI 대표값은 해당 화소에서 확보된 유효 관측값의 중앙값으로 정하였다. 중앙값은 일부 
 관측값이 잔여구름 등의 영향으로 그게 달라졌을 때 평균보다 극단값의 영향을 덜 받는다. 유효 관측이 없는 화소는 결측으로 유지하였다.
 유효 관측이 한 번인 화소에서는 그 관측값이 대표값이 될 수 있으므로, 결과 해석 시 유효 분석면적을 함께 확인하였다
+
+<img width="1680" height="920" alt="image" src="https://github.com/user-attachments/assets/8dbd9896-1f68-4f6d-83d4-275a61aaa018" />
 
 ### 5.2 세부목적 1의 분석 및 대상지별 의심 구역 탐지
 
